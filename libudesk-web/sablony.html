@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Šablony zdarma | LibuDesk</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:700,400|Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #111 url('images/wallpaper.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            font-family: 'Roboto', 'Poppins', Arial, sans-serif;
+            margin: 0;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 36px 16px 56px 16px;
+            background: rgba(17,17,17,0.93);
+            border-radius: 28px;
+            box-shadow: 0 0 30px #c346ff22;
+        }
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.2rem;
+            color: #71f2fa;
+            text-align: center;
+            text-shadow: 0 0 18px #00F0FF, 0 0 24px #c346ff;
+            margin-bottom: 16px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #ccc;
+            margin-bottom: 20px;
+            font-size: 1.12rem;
+        }
+        /* Premium sekce a AI asistent - sjednocený styl */
+        .highlight-box {
+            background: linear-gradient(90deg, #250041bb 0%, #32005a 100%);
+            border-radius: 16px;
+            box-shadow: 0 0 20px #c346ff55, 0 0 6px #00F0FF22;
+            padding: 16px 18px 14px 18px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .highlight-box .main {
+            color: #00F0FF;
+            font-weight: bold;
+            font-size: 1.09rem;
+        }
+        .highlight-box .desc {
+            color: #d6a0ff;
+            font-size: 1.02rem;
+            margin-top: 2px;
+        }
+        .highlight-box a {
+            color: #71f2fa;
+            text-decoration: underline;
+            font-weight: bold;
+            transition: color 0.15s;
+        }
+        .highlight-box a:hover { color: #C346FF; }
+        /* Speciální barva pro AI asistent sekci */
+        .ai-box {
+            background: linear-gradient(90deg, #001f24bb 0%, #150027 100%);
+            box-shadow: 0 0 22px #00F0FF55, 0 0 8px #c346ff33;
+        }
+        .ai-box .main {
+            color: #00F0FF;
+        }
+        .ai-box .desc {
+            color: #a0ffe4;
+        }
+        .sablona {
+            margin-bottom: 36px;
+            background: #1b1b1be8;
+            border-radius: 18px;
+            border: 2px solid #C346FF40;
+            box-shadow: 0 0 8px #c346ff44, 0 0 2px #00F0FF55 inset;
+            padding: 22px 20px 18px 20px;
+        }
+        .sablona h2 {
+            font-size: 1.22rem;
+            color: #00F0FF;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 8px;
+        }
+        .sablona .sablona-sub {
+            color: #c346ff;
+            font-size: 1.06rem;
+            font-family: 'Poppins', sans-serif;
+            margin-bottom: 14px;
+        }
+        .sablona hr {
+            border: 0;
+            border-top: 2px solid #c346ff88;
+            margin: 0 0 18px 0;
+        }
+        .sablona p, .sablona div {
+            color: #f6f6f6;
+            font-size: 1.06rem;
+            line-height: 1.68;
+        }
+        .premium-order {
+            text-align: center;
+            margin-top: 16px;
+        }
+        .btn-premium {
+            display: inline-block;
+            color: #fff;
+            background: #C346FF;
+            border: none;
+            border-radius: 2rem;
+            font-size: 1.09rem;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            padding: 12px 32px;
+            margin: 10px 0 4px 0;
+            text-decoration: none;
+            box-shadow: 0 0 14px #c346ff88;
+            transition: background 0.2s, color 0.2s;
+        }
+        .btn-premium:hover {
+            background: #00F0FF;
+            color: #222;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 8px 1vw 18px 1vw; }
+            h1 { font-size: 1.38rem; }
+            .sablona { padding: 12px 5px; }
+            .sablona h2 { font-size: 1.05rem; }
+            .highlight-box, .ai-box { padding: 10px 4px 8px 4px; font-size: 0.99rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Šablony zdarma pro podnikatele</h1>
+        <div class="subtitle">
+            Níže najdete 7 nejpoužívanějších šablon pro komunikaci se zákazníky.<br>
+            Stačí zkopírovat, upravit a použít!
+        </div>
+
+        <!-- Prémiová sekce - sjednocený highlight box -->
+        <div class="highlight-box">
+            <div class="main">Chcete víc?</div>
+            <div class="desc">
+                V naší prémiové sekci najdete <b>dalších 14 profesionálních šablon</b> (např. upomínky, follow-up, cenové nabídky, odpovědi na stížnosti, notifikace a další).<br>
+                Zájem? Napište na <a href="mailto:info@libulabs.com">info@libulabs.com</a>
+            </div>
+        </div>
+
+        <!-- AI asistent info - sjednocený highlight box -->
+        <div class="highlight-box ai-box">
+            <div class="main">AI asistent LibuDesk je součástí pouze prémiové sekce.</div>
+            <div class="desc">
+                Získejte přístup k chytrému AI asistentovi, který vygeneruje odpovědi, nabídky i e-maily na míru vašemu podnikání.<br>
+                <b>AI asistent i prémiové šablony budou k dispozici po spuštění prémiové verze.</b>
+            </div>
+        </div>
+
+        <!-- 1. Odpověď na poptávku -->
+        <div class="sablona">
+            <h2>1. Odpověď na poptávku</h2>
+            <div class="sablona-sub">Profi šablona pro rychlé odpovědi klientům</div>
+            <hr>
+            <div>
+                Dobrý den,<br><br>
+                děkujeme za vaši poptávku a zájem o naše služby.<br>
+                Rádi bychom vám nabídli řešení šité na míru přesně vašim potřebám.<br><br>
+                <b>S čím vám můžeme pomoci:</b><br>
+                - [vložte konkrétní nabídku/službu]<br><br>
+                <b>Doplňující informace:</b><br>
+                - [doplňte cenu, termín, postup spolupráce, apod.]<br><br>
+                Pokud budete mít jakékoliv dotazy, neváhejte se na mě kdykoliv obrátit.<br><br>
+                Těším se na spolupráci,<br>
+                [jméno, firma, kontakt]
+            </div>
+        </div>
+
+        <!-- 2. Potvrzení objednávky -->
+        <div class="sablona">
+            <h2>2. Potvrzení objednávky</h2>
+            <div class="sablona-sub">Šablona pro potvrzení přijetí a zpracování objednávky</div>
+            <hr>
+            <div>
+                Dobrý den,<br><br>
+                děkujeme za Vaši objednávku a projevenou důvěru v naše služby.<br>
+                Objednávka byla úspěšně přijata a nyní ji zpracováváme.<br><br>
+                <b>S čím vám můžeme pomoci:</b><br>
+                - [vložte konkrétní popis služby/objednávky]<br><br>
+                <b>Doplňující informace:</b><br>
+                - [doplňte cenu, termín dodání, postup, kontakt, apod.]<br><br>
+                Pokud budete mít jakékoli další dotazy, neváhejte se na nás kdykoli obrátit.<br><br>
+                Těším se na spolupráci,<br>
+                [jméno, firma, kontakt]
+            </div>
+        </div>
+
+        <!-- 3. Děkovný e-mail -->
+        <div class="sablona">
+            <h2>3. Děkovný e-mail</h2>
+            <div class="sablona-sub">Šablona pro poděkování klientům za spolupráci</div>
+            <hr>
+            <div>
+                Dobrý den,<br><br>
+                děkujeme za vaši spolupráci a důvěru v naše služby.<br>
+                Velmi si vážíme každého klienta a rádi vám budeme k dispozici i v budoucnu.<br><br>
+                Pokud budete potřebovat jakoukoli další podporu nebo radu, neváhejte nás kontaktovat.<br><br>
+                Hezký den a těšíme se na další spolupráci,<br>
+                [jméno, firma, kontakt]
+            </div>
+        </div>
+
+        <!-- 4. Slušné odmítnutí -->
+        <div class="sablona">
+            <h2>4. Slušné odmítnutí</h2>
+            <div class="sablona-sub">Šablona pro zdvořilé zamítnutí poptávky</div>
+            <hr>
+            <div>
+                Dobrý den,<br><br>
+                děkujeme za projevený zájem o naše služby.<br>
+                Bohužel vám v tuto chvíli nemůžeme nabídnout řešení odpovídající vašim požadavkům.<br><br>
+                Pokud se situace v budoucnu změní, rádi vás opět kontaktujeme.<br><br>
+                Děkujeme za pochopení a přejeme mnoho úspěchů,<br>
+                [jméno, firma, kontakt]
+            </div>
+        </div>
+
+        <!-- 5. Výzva k doplnění údajů -->
+        <div class="sablona">
+            <h2>5. Výzva k doplnění údajů</h2>
+            <div class="sablona-sub">Šablona pro doplnění chybějících informací od klienta</div>
+            <hr>
+            <div>
+                Dobrý den,<br><br>
+                děkujeme za váš zájem o naše služby. Abychom mohli vaši poptávku lépe zpracovat, potřebujeme ještě doplnit následující informace:<br><br>
+                - [vyjmenujte požadované údaje]<br><br>
+                Prosím o jejich zaslání co nejdříve.<br>
+                Děkujeme za spolupráci!<br><br>
+                S pozdravem,<br>
+                [jméno, firma, kontakt]
+            </div>
+        </div>
+
+        <!-- 6. Upomínka / připomenutí -->
+        <div class="sablona">
+            <h2>6. Upomínka / Připomenutí</h2>
+            <div class="sablona-sub">Šablona pro slušné připomenutí nebo upomínku klientovi</div>
+            <hr>
+            <div>
+                Dobrý den,<br><br>
+                připomínáme se ohledně předchozí komunikace / objednávky.<br>
+                Prosíme o zpětnou vazbu nebo doplnění potřebných informací.<br><br>
+                Pokud jste již reagovali, tuto zprávu prosím ignorujte.<br><br>
+                Děkujeme za spolupráci,<br>
+                [jméno, firma, kontakt]
+            </div>
+        </div>
+
+        <!-- 7. Odpověď na reklamaci -->
+        <div class="sablona">
+            <h2>7. Odpověď na reklamaci</h2>
+            <div class="sablona-sub">Šablona pro rychlou a vstřícnou reakci na reklamaci</div>
+            <hr>
+            <div>
+                Dobrý den,<br><br>
+                děkujeme za vaši zprávu a mrzí nás vzniklá situace.<br>
+                Vaši reklamaci jsme přijali a začínáme ji řešit.<br><br>
+                <b>Další kroky:</b><br>
+                - [stručně popište, co bude následovat]<br><br>
+                Uděláme maximum pro vaši spokojenost a budeme vás informovat o dalším postupu.<br><br>
+                Děkujeme za pochopení,<br>
+                [jméno, firma, kontakt]
+            </div>
+        </div>
+
+        <!-- Prémiová objednávka -->
+        <div class="premium-order">
+            <span style="font-size:1.09rem;color:#ccc;">Chcete získat všech 21 profi šablon?</span><br>
+            <a href="mailto:info@libulabs.com?subject=Prémiové%20šablony" class="btn-premium">Mám zájem o prémiové šablony</a>
+        </div>
+
+        <div style="text-align:center; margin-top:32px;">
+            <a href="index.html" style="color:#00F0FF;font-weight:bold;text-decoration:underline;font-size:1.06rem;">← Zpět na hlavní stránku</a>
+        </div>
+    </div>
+</body>
+</html>
